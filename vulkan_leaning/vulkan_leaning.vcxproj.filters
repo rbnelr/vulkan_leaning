@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{677b607d-2286-412b-b0bb-964cd83ca52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kissmath">
+      <UniqueIdentifier>{c73f1342-03bb-4bfb-9373-58abb18ca84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{8090e5fa-53b2-4a86-a895-9195f7081db5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kissmath\bool.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\bool2.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\bool3.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\bool4.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\float.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\float2.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\float2x2.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\float3.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\float3x3.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\float3x4.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\float4.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\float4x4.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\int.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\int2.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\int3.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\int4.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\int64.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\int64v2.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\int64v3.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\int64v4.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\transform2d.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\transform3d.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\uint8.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\uint8v2.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\uint8v3.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="kissmath\uint8v4.cpp">
+      <Filter>kissmath</Filter>
+    </ClCompile>
+    <ClCompile Include="util\collision.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\file_io.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\random.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\read_directory.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\string.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\threadpool.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\timer.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kissmath\bool.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\bool2.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\bool3.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\bool4.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\float.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\float2.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\float2x2.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\float3.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\float3x3.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\float3x4.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\float4.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\float4x4.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\int.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\int2.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\int3.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\int4.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\int64.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\int64v2.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\int64v3.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\int64v4.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\transform2d.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\transform3d.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\uint8.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\uint8v2.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\uint8v3.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath\uint8v4.hpp">
+      <Filter>kissmath</Filter>
+    </ClInclude>
+    <ClInclude Include="util\animation.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\bit_twiddling.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\block_allocator.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\circular_buffer.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\clean_windows_h.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\collision.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\file_io.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\geometry.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\move_only_class.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\random.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\raw_array.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\read_directory.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\running_average.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\string.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\threadpool.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\threadsafe_queue.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\timer.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="kissmath.hpp" />
+    <ClInclude Include="kissmath_colors.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\shader.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shader.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\compile.bat">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
